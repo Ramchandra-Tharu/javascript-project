@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+    color: #fff;
+}
+p{
+text-align: center;
+    }
+#clock{
+    width: 80px;
+    height: 150 px;
+    padding: 10px;
+    margin: 20px;
+    background-color: gray;
+    color: #fff;
+}
