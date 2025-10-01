@@ -10,6 +10,8 @@ h3 {
 }
 
 .home {
+         grid-template-rows: 1fr auto;
+
     flex-direction: column;
     width: 500px;
     height: 600px;
@@ -48,6 +50,7 @@ button {
     align-items: center;
     /* center each box horizontally */
     gap: 5px;
+    
 }
 
 .box1 {
@@ -73,14 +76,14 @@ button {
 }
 
 .button-x {
-    align-items: right;
     border: none;
     outline: none;
     background-color: transparent;
     color: #212121;
     ;
 }
-.footer{
-    margin-top: auto;          
-    text-align: center;
+.footer {
+  position: fixed;   /* fixes the footer to bottom */
+    padding: 10px 0;
+    margin-left: 20px;
 }
