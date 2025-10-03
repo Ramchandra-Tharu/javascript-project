@@ -85,5 +85,5 @@ button {
 .footer {
   position: fixed;   /* fixes the footer to bottom */
     padding: 10px 0;
-    margin-left: 20px;
+    margin-left: 20px               ;
 }
