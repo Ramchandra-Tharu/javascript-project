@@ -18,12 +18,12 @@ button.addEventListener("click", function() {
     }
 
     if (guess === secretNumber) {
-        result.textContent = `🎉 Correct! You guessed it in ${attempts} tries.`;
+        result.textContent = `Correct! You guessed it in ${attempts} tries.`;
         button.disabled = true; // disable after correct guess
     } else if (guess > secretNumber) {
-        result.textContent = "📉 Too high! Try again.";
+        result.textContent = "Too high! Try again.";
     } else {
-        result.textContent = "📈 Too low! Try again.";
+        result.textContent = "Too low! Try again.";
     }
 
     input.value = ""; // clear input
