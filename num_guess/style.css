@@ -1,24 +1,32 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     background-color: #414141;
 
 }
-.container{
+
+.container {
     width: 400px;
     height: 600px;
     background-color: #f5f5f5;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-   overflow-y: auto; 
-   text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    overflow-y: auto;
+    text-align: center;
 
 }
-#input-val{
+
+#input-val {
     width: 50px;
     height: 40px;
- text-align: center;
-padding: 5px;
-margin-bottom: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
 }
-   
+
+
+
+#button{
+    margin-bottom: 20px;
+}
